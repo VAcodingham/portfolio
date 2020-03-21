@@ -1,0 +1,41 @@
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: rgba(184,134, 11, 0.6);
+}
+.sidenav a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: cornsilk;
+    display: block;
+    padding: 40px 8px 6px 16px;
+}    
+.sidenav > a {
+    margin-left: 75px; 
+}
+.sidenav img{
+    opacity: 1;
+    border-radius: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.sidenav .row{
+    margin-left: 60px;
+    margin-top: 50px;
+    
+}
+html {
+    background: url(image_back.PNG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
